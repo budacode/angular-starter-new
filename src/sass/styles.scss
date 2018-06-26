@@ -1,0 +1,17 @@
+@import './variables';
+@import './mixins';
+@import './fonts';
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '~ng-pick-datetime/assets/style/picker.min.css';
+
+html,
+body {
+  @include font-seagoe-ui();
+  margin: 0;
+  padding: 0;
+  color: black;
+
+  p {
+    margin: 0;
+  }
+}

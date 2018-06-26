@@ -1,0 +1,61 @@
+@import './variables';
+
+/*********************************/
+/*  Regular font style modifiers */
+/*********************************/
+@mixin font-thin() {
+  font-weight: 100;
+}
+
+@mixin font-ultra-light() {
+  font-weight: 200;
+}
+
+@mixin font-light() {
+  font-weight: 300;
+}
+
+@mixin font-regular() {
+  font-weight: 400;
+}
+
+@mixin font-medium() {
+  font-weight: 500;
+}
+
+@mixin font-semi-bold() {
+  font-weight: 600;
+}
+
+@mixin font-bold() {
+  font-weight: 700;
+}
+
+@mixin font-extra-bold() {
+  font-weight: 800;
+}
+
+@mixin font-black() {
+  font-weight: 900;
+}
+
+@mixin font-italic() {
+  font-style: italic;
+}
+
+@mixin font-condensed() {
+  font-stretch: condensed;
+}
+
+@mixin font-seagoe-ui() {
+  font-family: 'Segoe UI', Helvetica, sans-serif;
+}
+
+/*********************************/
+/*  Regular position  modifiers  */
+/*********************************/
+@mixin relative-center() {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}

@@ -1,0 +1,7 @@
+.user-component-container
+  .user-header
+    mat-card(*ngIf='user')
+      img.profileImg(src='{{user.profileImageLink || "https://www.whereinfair.com/public/img/profile_placeholder.png"}}')
+      h3 {{ user.fullName}}
+      h5 Email:  {{ user.emailAddress}}
+      h5 Date Of Bird: {{ (user.dateOfBirth | date) || 'Unknown'}}

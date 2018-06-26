@@ -1,0 +1,29 @@
+@import './mixins';
+
+/*********************************/
+/*      Segoe UI font style      */
+/*********************************/
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('/assets/fonts/segoe-ui/SEGOEUI.TTF');
+  @include font-regular();
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('/assets/fonts/segoe-ui/SEGOEUIB.TTF');
+  @include font-bold();
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('/assets/fonts/segoe-ui/SEGOEUIZ.TTF');
+  @include font-bold();
+  @include font-italic();
+}
+
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('/assets/fonts/segoe-ui/segoeuii.ttf');
+  @include font-italic();
+}

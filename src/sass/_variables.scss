@@ -1,0 +1,43 @@
+// width
+$smaller-width: 400px;
+$default-width: 900px;
+
+$colors: (
+  primary:    #60c403,
+  primary-text: #050505,
+  secondary:  #1c1f26,
+  danger:     #e30613,
+  warn:       #ff9900,
+  success:    #489802,
+  light:      #f4f4f4,
+  pink:     #e83f6f,
+  gray:     #5d6372,
+  light-gray:#cbcfd2,
+  facebook:   #3161a5,
+  white:    #ffffff,
+  back-gray: #e2e2e5,
+  admin-gray: #b4b4b4,
+  transparent: transparent,
+  whatsapp: #25d366,
+  share-blue: #03a2e5,
+  neon-blue: #00ffff,
+  neon-pink: #e50051,
+);
+
+$primary: map-get($colors, primary);
+$primary-text: map-get($colors, primary-text);
+$secondary: map-get($colors, secondary);
+$dark: map-get($colors, dark);
+$danger: map-get($colors, danger);
+$warn: map-get($colors, warn);
+$success: map-get($colors, success);
+$pink: map-get($colors, pink);
+$gray: map-get($colors, gray);
+$light-gray: map-get($colors, light-gray);
+$back-gray: map-get($colors, back-gray);
+$admin-gray: map-get($colors, admin-gray);
+$facebook: map-get($colors, facebook);
+$share-blue: map-get($colors, share-blue);
+$whatsapp: map-get($colors, whatsapp);
+$neon-blue: map-get($colors, neon-blue);
+$neon-pink: map-get($colors, neon-pink);
